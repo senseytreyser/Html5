@@ -337,3 +337,45 @@ details summary::-webkit-details-marker {
     line-height: 18px;
     text-align: left;
 }
+
+.section-buy{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-buy-title{
+    font-family: Arial;
+    color:  #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    width: 100%;
+}
+
+.section-buy-case{
+    background-color: #425063;
+    width: 300px;
+
+}
+
+.section-buy-case-title{
+    font-family: Arial;
+    color:  #fff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.section-buy-case-price{
+    font-family: Arial;
+    color:  #445162;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    background-color: #fff;
+}
+
