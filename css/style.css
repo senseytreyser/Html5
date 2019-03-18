@@ -339,9 +339,13 @@ details summary::-webkit-details-marker {
 }
 
 .section-buy{
+    padding: 50px 150px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: flex-end;
 }
 
 .section-buy-title{
@@ -351,25 +355,34 @@ details summary::-webkit-details-marker {
     font-weight: 400;
     line-height: 36px;
     text-align: center;
+    display:block;
     width: 100%;
 }
 
 .section-buy-case{
     background-color: #425063;
     width: 300px;
-
+    border-radius: 5px;
+    margin: 30px 0 0 0;
 }
 
 .section-buy-case-title{
+    box-sizing:border-box;
+    padding: 17px 0;
+    display: block;
     font-family: Arial;
     color:  #fff;
     font-size: 24px;
     font-weight: 400;
     line-height: 30px;
     text-align: center;
+    width:100%;
 }
 
 .section-buy-case-price{
+    box-sizing:border-box;
+    padding: 18px 0;
+    margin: 0 2px;
     font-family: Arial;
     color:  #445162;
     font-size: 40px;
@@ -379,3 +392,250 @@ details summary::-webkit-details-marker {
     background-color: #fff;
 }
 
+.section-buy-case-descr{
+    font-family: Arial;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.section-buy-case-button{
+    box-sizing:border-box;
+    padding: 14px 0;
+    margin: 20px auto;
+    display:block;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    background-color:  #fff;
+    width: 260px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial;
+    color:  #445161;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+}
+
+.section-buy-case-button:hover{
+    background-color:  #425063;
+    color:  #fff;
+}
+
+.section-buy-case-button:active{
+    background-color:  #fff;
+    color:  #445161;
+}
+
+.section-contacts{
+    width: 100%;
+    background-color: #445162;
+    padding: 50px 250px;
+    box-sizing: border-box;
+}
+
+.section-contacts-title{
+    display: block;
+    font-family: Arial;
+    color:  #fff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    margin: 0 0 31px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.section-contacts-form{
+    width: 500px;
+}
+
+.section-contacts-form-name{
+    border-radius: 5px;
+    background-color:  #fff;
+    box-sizing: border-box;
+    display: block;
+    margin: 0 0 21px 0;
+    padding: 17px 10px;
+    width: 100%;
+    font-family: Arial;
+    color:  #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.section-contacts-form-name::-webkit-input-placeholder{
+    font-family: Arial;
+    color:  #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.section-contacts-form-name::-moz-placeholder{
+    font-family: Arial;
+    color:  #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.section-contacts-form-name:-moz-placeholder{
+    font-family: Arial;
+    color:  #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.section-contacts-form-name::-ms-input-placeholder{
+    font-family: Arial;
+    color:  #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.section-contacts-form-email{
+    border-radius: 5px;
+    background-color:  #fff;
+    box-sizing: border-box;
+    display: block;
+    margin: 0 0 21px 0;
+    padding: 17px 10px;
+    width: 100%;
+    font-family: Arial;
+    color:  #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.section-contacts-form-email::-webkit-input-placeholder{
+    font-family: Arial;
+    color:  #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.section-contacts-form-email::-moz-placeholder{
+    font-family: Arial;
+    color:  #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.section-contacts-form-email:-moz-placeholder{
+    font-family: Arial;
+    color:  #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.section-contacts-form-email::-ms-input-placeholder{
+    font-family: Arial;
+    color:  #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.section-contacts-form-message{
+    border-radius: 5px;
+    background-color:  #fff;
+    box-sizing: border-box;
+    display: block;
+    min-height: 170px;
+    margin: 0 0 21px 0;
+    padding: 17px 10px;
+    resize: none;  
+    width: 100%;
+    font-family: Arial;
+    color:  #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.section-contacts-form-message::-webkit-input-placeholder{
+    font-family: Arial;
+    color:  #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.section-contacts-form-message::-moz-placeholder{
+    font-family: Arial;
+    color:  #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.section-contacts-form-message:-moz-placeholder{
+    font-family: Arial;
+    color:  #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.section-contacts-form-message::-ms-input-placeholder{
+    font-family: Arial;
+    color:  #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.section-contacts-form-button{
+    border-radius: 5px;
+    background-color:  #fff;
+    display: block;
+    margin: 0 auto;
+    width: 140px;
+    height: 40px;
+    font-family: Arial;
+    color:  #445162;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.footer{
+    background-color: #f5f5f5;
+    font-family: Arial;
+    color:  #445162;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    line-height: 24px;
+    padding: 5px 0;
+    text-align: center;
+    width: 100%;
+}
